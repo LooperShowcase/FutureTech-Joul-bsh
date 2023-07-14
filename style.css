@@ -1,0 +1,47 @@
+body {
+  background-color: rgba(109, 163, 145, 0.341);
+}
+h1 {
+  font-family: "Caprasimo", cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+h2 {
+  display: flex;
+ 
+  max-width: 10%;
+}
+input {
+  width: 650px;
+  height: 30px;
+  border-radius: 9px;
+  background-color: darkgray;
+}
+
+#bar{
+  margin-top: 190px;
+}
+
+#submit {
+  width: 60px;
+  height: 20px;
+  margin-left: 0px;
+  border: 1px;
+  background-color: gray;
+  border-radius: 12px;
+}
+#b1:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px yellow;
+}
+#webcam-container {
+  border-radius: 120px;
+  width: 200px;
+  height: 200px;
+}
+canvas {
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px gray;
+}
